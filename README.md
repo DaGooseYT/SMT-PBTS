@@ -21,4 +21,9 @@ This is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be publishe
 
 The schematic for this project is located in `/schematic`. It is availible in .svg & .json (to be imported via EasyEDA) files for the source and .png in the releases. 
 
-__Other notes:__
+**Other notes:**
+- R23-R26 are resistors in the LC low pass filters and the resistance values must be changed in order for the low pass filter to be effective. Use the LC filter formula to determine a cutoff frequency: 
+<details>
+           <summary>Formula</summary>
+           <p></p>
+         </details>
