@@ -14,3 +14,7 @@ This is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be publishe
   1. *Only when using XR1075 extention module*
   2. *Only when using 
   3. *Only when using four Samsung 35E cells*
+
+## Schematic ##
+
+The schematic for this project is located in `code(/schematics)` . It is availible in .svg file for the source and .png in the releases.
