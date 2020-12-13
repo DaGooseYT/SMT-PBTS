@@ -15,8 +15,8 @@ This is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be publishe
   2. *Only when using 
   3. *Only when using four Samsung 35E cells*
 
-## Schematic ##
+## Schematic
 
 The schematic for this project is located in `/schematics`. It is availible in .svg file for the source and .png in the releases. 
+
 __Other notes:__
-- 
