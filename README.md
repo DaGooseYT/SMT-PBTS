@@ -3,7 +3,7 @@
 This is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be published online. This project is experimental is is not intended for everyday use. 
 
  **Features:**
-  - Up to 60w of output power
+  - 60w of output power
   - Very low overall THD (0.5% max.)
   - 3.2 channels; three mid-to-high range channels & two 3.5 inch subwoofers
   - BBE® sound enhancement*
