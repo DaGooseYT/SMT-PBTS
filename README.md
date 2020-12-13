@@ -6,8 +6,11 @@ This is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be publishe
   - 60w of output power
   - Very low overall THD (0.5% max.)
   - 3.2 channels; three mid-to-high range channels & two 3.5 inch subwoofers
-  - BBE® sound enhancement*
-  - 3v cell cutoff for
-  - 7 hours of battery live (at 30w output power)
+  - BBE® sound enhancement¹
+  - Battery pack cycle life enhancment; 3v cell cutoff²
+  - 8 hours of battery live (at 30w output power)³
   - 38hz - 20,000kHz frequency response
-
+  
+  1. *Only when using XR1075 extention module*
+  2. *Only when using 
+  3. *Only when using four Samsung 35E cells*
