@@ -23,3 +23,7 @@ The schematic for this project is located in `/schematic`. It is availible in .s
 
 **Other notes:**
 - R23-R26 are resistors in the LC low pass filters and the resistance values must be changed in order for the low pass filter to be effective. Use the LC filter formula to determine a cutoff frequency.
+
+## PCB
+
+The PCB source is located in `/PCB`. There are two sources availible; one for Altium and one for EasyEDA. PCB Gerber is in the releases.
