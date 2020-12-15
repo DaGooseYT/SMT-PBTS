@@ -24,7 +24,7 @@ The schematic for this project is located in `/schematic`. It is availible in .s
 **Other notes:**
 - R23-R26 are resistors in the LC low pass filters and the resistance values must be changed in order for the low pass filter to be effective. Use the LC filter formula to determine a cutoff frequency.
 - R17 & R18 must be changed according to the output voltage gain of the amplifier.
-- R5 & R6 set the gain for TPA3128D2. Refer to [TPA3128D2 datasheet](https://www.ti.com/lit/ds/symlink/tpa3128d2.pdf?ts=1607302833960) for help.
+- R5 & R6 set the gain for TPA3128D2. Default gain is 36dB in the PCB. Refer to [TPA3128D2 datasheet](https://www.ti.com/lit/ds/symlink/tpa3128d2.pdf?ts=1607302833960) for help.
 
 ## PCB
 
