@@ -26,7 +26,7 @@ The schematic for this project is located in `/schematic`. It is availible in .s
 
 ## PCB
 
-The PCB source is located in `/PCB`. There are two sources availible; one for Altium and one for EasyEDA. PCB Gerber is in the releases.
+The PCB source for the main and extension is located in `/PCB`. There are two sources availible; one for Altium and one for EasyEDA. PCB gerbers are in the releases.
 
 **Other notes:**
 - U3 & U5 are input/output connectors for the XR1075 extension PCB. If you are not using it, brige the holes.
