@@ -9,12 +9,12 @@ This is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be publishe
   - BBE® sound enhancement¹
   - Battery pack cycle life enhancment; 3v overdischarge cell cutoff²
   - 8 hours of battery live (at 30w output power)³
-  - 38hz - 20,000kHz frequency response
+  - 38Hz - 20,000kHz frequency response
   - Bluetooth v4.1 connectivity (up to 66 feet range)
   - AUX switching input
   
   1. *Only when using XR1075 extention module*
-  2. *Only when using 
+  2. *Only when using S-8254AAWFT IC in the bms*
   3. *Only when using four Samsung 35E cells*
 
 ## Schematic
