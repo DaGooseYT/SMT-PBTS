@@ -33,3 +33,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 **Other notes:**
 - U3 & U5 are input/output connectors for the XR1075 extension PCB. If you are not using it, brige the holes.
 - C50 & C51 on the XR1075 extension module will most likely not be needed, as LC low pass filters are already applied.
+
+## Enclosure 
+
+Enclosure demensions are as follows (when looking at the front; in inches. Sorry metric users you will have to convert the measurements on your own!): Length:
