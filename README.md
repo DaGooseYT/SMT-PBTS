@@ -36,4 +36,4 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 
 ## Enclosure 
 
-Enclosure demensions are as follows (when looking at the front; in inches. Sorry metric users you will have to convert the measurements on your own!): Length:
+Enclosure demensions are as follows (when looking at the front & in inches. Sorry metric users you will have to convert the measurements on your own!): Length: 10.5, Width: 4.25, Depth: 3.5
