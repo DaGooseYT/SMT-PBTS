@@ -58,3 +58,5 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 3. Open PStool.exe. Ensure `SPI BCCMD` bubble is selected. Your USB-SPI converter should show up in the dropdown next to `SPI BCCMD` (note: third party USB-SPI converters will not show up here; only CSR devices). Select OK.
 4. In the *Filter* textbox, type `name`. Select the change user friendly name in the list (should be the only one in the list) and there you can change the device name.
 5. After you have set the name, select the set button then you can close PStool. All done!
+
+## Other
