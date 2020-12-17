@@ -57,6 +57,11 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 2. Download and install [CSR Bluesuit v2.6.6](https://drive.google.com/file/d/1OHdcJ7Q7dSbCMiuglO7hV6pjNrMVJkaL/view?usp=sharing) (Windows only). After installation, go to `C:\Program Files (x86)\CSR\BlueSuite 2.6.6` in file explorer. Connect your CSR USB-SPI converter to your computer. Connect the jumper wires from the microcontroller to the SPI female headers on the main PCB. The connections are labeled on both the PCB and the CSR USB-SPI modules. If you are using the new CSR SPI-USB module, then you will need to use an external power source to power the KRC-86B due to 3v being too low for its operation.
 3. Open PStool.exe. Ensure `SPI BCCMD` bubble is selected. Your USB-SPI converter should show up in the dropdown next to `SPI BCCMD` (note: third party USB-SPI converters will not show up here; only CSR devices). Select OK.
 4. In the *Filter* textbox, type `name`. Select the change user friendly name in the list (should be the only one in the list) and there you can change the device name.
-5. After you have set the name, select the set button then you can close PStool. All done!
+5. After you have set the name, select the `set` button, then you can close PStool. All done!
 
 ## Other
+- The pre-modulated 4s BMS PCB can be found [here](https://www.amazon.com/Anmbest-Charger-Protection-Lithium-Battery/dp/B07KSPX859/ref=sr_1_12?dchild=1&keywords=4s+bms&qid=1608227266&sr=8-12)
+- Samsung 35E 18650 battery cells can be found [here](https://www.18650batterystore.com/products/samsung-35e)
+
+## Disclaimer & License
+- Licenses are located in `/License`. License1 covers the hardware aspects 
