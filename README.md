@@ -36,7 +36,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 
 ## Enclosure 
 
-- Enclosure demensions are as follows (when looking at the front & in inches. Sorry metric users you will have to convert the measurements on your own!): Length: 10.5; Width: 4.25; Depth: 3.5
+- Outer enclosure demensions are as follows (when looking at the front & in inches. Sorry metric users you will have to convert the measurements on your own!): Length: 10.5; Width: 4.25; Depth: 3.5
 - Speaker hole diameters (also in inches): Left and right surround speakers: 1.9; two bass drivers: 3.5; center speaker: 1.9
 - Connector, Port, and LED hole diameters (again.. in inches): Power & AUX connectors: 0.5; LEDs: 3/16; Port: 5/8
 - It is reccomended to use polyfill in the enclosure for better frequency response around the port tuning frequency. 
