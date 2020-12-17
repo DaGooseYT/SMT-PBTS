@@ -36,17 +36,21 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 
 ## Enclosure 
 
-- Enclosure demensions are as follows (when looking at the front & in inches. Sorry metric users you will have to convert the measurements on your own!): Length: 10.5, Width: 4.25, Depth: 3.5
-- Speaker hole diameters (also in inches): 
-- The port of the enslosure is simply a PVC pipe with a inner diameter of 0.5 inches and is 9.75 inches in length (port tuning is between 39Hz - 40Hz). Due to Hoffman's Iron Law, the speaker will suffer in efficiency but will have a deep frequency response.
+- Enclosure demensions are as follows (when looking at the front & in inches. Sorry metric users you will have to convert the measurements on your own!): Length: 10.5; Width: 4.25; Depth: 3.5
+- Speaker hole diameters (also in inches): Left and right surround speakers: 1.9; two bass drivers: 3.5; center speaker: 1.9
+- Connector, Port, and LED hole diameters (again.. in inches): Power & AUX connectors: 0.5; LEDs: 3/16; Port: 5/8
+- It is reccomended to use polyfill in the enclosure for better frequency response around the port tuning frequency. 
+- The port of the enslosure is simply a PVC pipe with a inner diameter of 0.5 inches and is 9.75 inches in length (port tuning is between 39Hz - 40Hz). Due to Hoffman's Iron Law, the speaker will suffer in efficiency from the small enclosure & narrow port but will have a deep frequency response.
 - 
 
 ## Drivers
 
-- The two 3.5 inch drivers are manufactured by BH Acoustics (see [datasheet](https://cdn.komachine.com/media/product-catalog/bh-acoustic_84067_fngrun.pdf)). They were pulled from two Samsung WAM1500 smart speakers. Due two the limited availibility of these drivers, it is recomended to use [these drivers](https://www.parts-express.com/dayton-audio-nd90-4-3-1-2-aluminum-cone-full-range-neo-driver-4-ohm--290-208?gclid=EAIaIQobChMI4NT3tpzQ7QIVxqeGCh1ngwkfEAQYASABEgL25PD_BwE) as an alternative.
+- The two bass drivers are 3.5 inches in diameter and are manufactured by BH Acoustics (see [datasheet](https://cdn.komachine.com/media/product-catalog/bh-acoustic_84067_fngrun.pdf)). They were pulled from two Samsung WAM1500 smart speakers. Due two the limited availibility of these drivers, it is recomended to use [these other drivers](https://www.parts-express.com/dayton-audio-nd90-4-3-1-2-aluminum-cone-full-range-neo-driver-4-ohm--290-208?gclid=EAIaIQobChMI4NT3tpzQ7QIVxqeGCh1ngwkfEAQYASABEgL25PD_BwE) as an alternative.
 - The center speaker is simply a tweeter that has been physically modified to play frequencies as low as 160Hz. It is rated at 10w 4ohm and was also pulled from Samsung WAM1500. There is no other documentation of this tweeter online. Please use [this](https://www.amazon.com/dp/B00LSEVA8I/ref=sspa_dk_detail_4?psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMjNDVFhLNklCVUdHJmVuY3J5cHRlZElkPUEwMTM0NTc4MTI4WFROUlVBVEI5OCZlbmNyeXB0ZWRBZElkPUEwNDU2MDk1MzIyMkdWSDRQRE5BNSZ3aWRnZXROYW1lPXNwX2RldGFpbDImYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl) driver instead. 
 - The two surround speakers can be found [here](https://www.amazon.com/AIYIMA-Portable-Speakers-Loudspeaker-Accessories/dp/B07CWMCMQR/ref=sr_1_4?dchild=1&keywords=2+inch+speaker&qid=1608043699&sr=8-4).
 
 ## Inputs 
-
-This project features Bluetooth v4.1 using the KRC-86B v4.0 Bluetooth module. 
+- AUX input via 3.5mm audio jack. Buy it [here](
+- Power input via 
+- This project features Bluetooth v4.1 using the KRC-86B v4.0 Bluetooth module. The module can be reprogrammed to change the device's name aswell as other features using a special microcontroller and some software. Follow the directions below: 
+1. First you will need the special CSR microcontroller USB-SPI converter. You can buy the original one [here](https://www.aliexpress.com/item/32775070191.html?src=google&albch=shopping&acnt=494-037-6276&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&&albagn=888888&albcp=9824643245&albag=103112554314&trgt=901524112532&crea=en32775070191&netw=u&device=c&albpg=901524112532&albpd=en32775070191&gclid=CjwKCAiA_eb-BRB2EiwAGBnXXndOKJJVaxX_gCD3rRJvCNkSjhx2zsD4KVPEarOYSEoiylvzrDLkuxoCNq0QAvD_BwE&gclsrc=aw.ds). If you don't want to pay the expensive price and/or wait for the shipping from China, then use [this microcontroller](https://www.digikey.com/en/products/detail/qualcomm-technologies-international,-ltd./DK-USB-SPI-10225-1A/5269739?utm_adgroup=Programmers%2C%20Emulators%2C%20and%20Debuggers&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Development%20Boards%2C%20Kits%2C%20Programmers_NEW&utm_term=&utm_content=Programmers%2C%20Emulators%2C%20and%20Debuggers&gclid=CjwKCAiA_eb-BRB2EiwAGBnXXkE3N6KQK4NOpo7lJF4k9YGp8LHvVVaPRt-t7ffovO93XN6W43aERhoCHx8QAvD_BwE) shipped and sold in the US as a cheaper alternative.
