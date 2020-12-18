@@ -32,9 +32,10 @@ The schematic for this project is located in `/schematic`. It is availible in .s
 The main and extension PCB sources are located in `/PCB`. There are two sources availible; one for Altium and one for EasyEDA. PCB gerbers are in the releases.
 
 **Other notes:**
-- U3 & U5 are input/output connectors for the XR1075 extension PCB. If you are not using it, brige the holes.
+- L & R are input/output connectors (next to KRC-86B v4.0) for the XR1075 extension PCB. If you are not using it, brige the holes.
 - C50 & C51 on the XR1075 extension module will most likely not be needed, as LC low pass filters are already applied in the main PCB.
 - If you use a larger enclosure/smaller drivers for the speaker, then XR1075 module may not be needed.
+- R16 is a 1/2w carbon film resistor and is not listed on the PCB. Please connect this externally from the PCB.
 
 ## Enclosure 
 
@@ -65,6 +66,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - The pre-modulated 4s BMS PCB can be found [here](https://www.amazon.com/Anmbest-Charger-Protection-Lithium-Battery/dp/B07KSPX859/ref=sr_1_12?dchild=1&keywords=4s+bms&qid=1608227266&sr=8-12)
 - Samsung 35E 18650 battery cells can be found [here](https://www.18650batterystore.com/products/samsung-35e)
 - For fire prevention, use 20AWG wires or better for the power connections and TPA3128D2 output connections.
+- KRC-86B v4.0 Bluetooth module can be found [here](https://www.amazon.com/HiLetgo-KRC-86B-Bluetooth-Receiver-Amplifier/dp/B071Z7S3JL/ref=sr_1_3?crid=2S69IR6LEVEXN&dchild=1&keywords=krc-86b&qid=1608305471&sprefix=krc-86%2Caps%2C154&sr=8-3)
 
 ## Disclaimer & Licenses
 - Licenses are located in `/License`. By using the contents in this repository, you automatically agree to the terms and conditions in the licenses as well as the disclaimers listed below.
