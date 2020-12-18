@@ -75,4 +75,5 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - The contents of this project are NOT risk-free of failure and therefore must be proofchecked by the user before use. The user assumes responsibility for any damages caused by electrical/mechanical failures.
 - Soldering lithium-ion batteries can be dangerous! Proper use and knowledge of the risks associated with the use of lithium-ion batteries must be considered by the user before attempting to create a battery pack.
 - Some components used in the PCBs are microscopic and require special microsoldering skills to assemble. This process is not for the "faint of heart" nor should be attempted if you don't have the right equipment. 
+- This project is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be published online based on my own research only. 
 - ***I can't hold your hand through every step and procedure in this project.***
