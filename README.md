@@ -23,7 +23,8 @@ The schematic for this project is located in `/schematic`. It is availible in .s
 
 **Other notes:**
 - R23-R26 are resistors in the LC low pass filters and the resistance values must be changed in order for the low pass filter to be effective. Use the LC filter formula to determine a cutoff frequency.
-- R17 & R18 must be changed according to the output voltage gain of the amplifier.
+- R17 & R18 must be changed according to the output voltage gain of the amplifier. 
+- R21 & R22 control the crosstalk between surround channels. Higher resistance increases the cross talk, but will also increase the phase seperation (closer to 180° out of phase).
 - R5 & R6 set the gain for TPA3128D2. Default gain is 36dB in the PCB. Refer to [TPA3128D2 datasheet](https://www.ti.com/lit/ds/symlink/tpa3128d2.pdf?ts=1607302833960) for help.
 
 ## PCB
@@ -32,7 +33,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 
 **Other notes:**
 - U3 & U5 are input/output connectors for the XR1075 extension PCB. If you are not using it, brige the holes.
-- C50 & C51 on the XR1075 extension module will most likely not be needed, as LC low pass filters are already applied.
+- C50 & C51 on the XR1075 extension module will most likely not be needed, as LC low pass filters are already applied in the main PCB.
 - If you use a larger enclosure/smaller drivers for the speaker, then XR1075 module may not be needed.
 
 ## Enclosure 
@@ -70,4 +71,5 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - License2 covers the hardware aspects of the project including the contentes in `/Photos`, enclosure design, and overall design of the speaker.
 - The contents of this project are NOT risk-free of failure and therefore must be proofchecked by the user before use. The user assumes responsibility for any damages caused by electrical/mechanical failures.
 - Soldering lithium-ion batteries can be dangerous! Proper use and knowledge of the risks associated with the use of lithium-ion batteries must be considered by the user before attempting to create a battery pack.
-- Some components used in the PCBs are microscopic and require special microsoldering skills to assemble. This process is not for the "faint of heart" nor should be attempted if you don't have the right equipment. ***I can't hold your hand through every step and procedure in this project.***
+- Some components used in the PCBs are microscopic and require special microsoldering skills to assemble. This process is not for the "faint of heart" nor should be attempted if you don't have the right equipment. 
+- ***I can't hold your hand through every step and procedure in this project.***
