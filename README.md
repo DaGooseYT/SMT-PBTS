@@ -65,7 +65,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - Samsung 35E 18650 battery cells can be found [here](https://www.18650batterystore.com/products/samsung-35e)
 
 ## Disclaimer & Licenses
-- Licenses are located in `/License`. By using the contents in this repository, you automatically agree to the terms and conditions in the licenses.
+- Licenses are located in `/License`. By using the contents in this repository, you automatically agree to the terms and conditions in the licenses as well as the disclaimers listed below.
 - License1 covers the software aspects of this repository including the schematic, PCB source, PCB gerber, etc.
 - License2 covers the hardware aspects of the project including the contentes in `/Photos`, enclosure design, and overall design of the speaker.
 - The contents of this project are NOT risk-free of failure and therefore must be proofchecked by the user before use. The user assumes responsibility for any damages caused by electrical/mechanical failures.
