@@ -64,6 +64,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 ## Other
 - The pre-modulated 4s BMS PCB can be found [here](https://www.amazon.com/Anmbest-Charger-Protection-Lithium-Battery/dp/B07KSPX859/ref=sr_1_12?dchild=1&keywords=4s+bms&qid=1608227266&sr=8-12)
 - Samsung 35E 18650 battery cells can be found [here](https://www.18650batterystore.com/products/samsung-35e)
+- For fire prevention, use 20AWG wires or better for the power connections and TPA3128D2 output connections.
 
 ## Disclaimer & Licenses
 - Licenses are located in `/License`. By using the contents in this repository, you automatically agree to the terms and conditions in the licenses as well as the disclaimers listed below.
