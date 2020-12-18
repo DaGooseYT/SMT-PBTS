@@ -41,7 +41,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - Speaker hole diameters (also in inches): Left and right surround speakers: 1.9; two bass drivers: 3.5; center speaker: 1.9
 - Connector, Port, and LED hole diameters (again.. in inches): Power & AUX connectors: 0.5; LEDs: 3/16; Port: 5/8
 - It is reccomended to use polyfill in the enclosure for better frequency response around the port tuning frequency. 
-- The port of the enslosure is simply a PVC pipe with a inner diameter of 0.5 inches and is 9.75 inches in length (port tuning is between 39Hz - 40Hz). Due to Hoffman's Iron Law, the speaker will suffer in efficiency from the small enclosure & narrow port but will have a deep frequency response.
+- The port of the enslosure is simply a PVC pipe with a inner diameter of 0.5 inches and is 9.75 inches in length (port tuning is between 39Hz - 40Hz). Due to Hoffman's Iron Law, the speaker will suffer in efficiency from the small enclosure & narrow port but will have a deep frequency response. A port was used due to no room for a passive radiator.
 - 0.25 inch thick MDF wood is reccomended for the speaker enclosure build.
 
 ## Drivers
