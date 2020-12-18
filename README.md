@@ -64,5 +64,10 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - The pre-modulated 4s BMS PCB can be found [here](https://www.amazon.com/Anmbest-Charger-Protection-Lithium-Battery/dp/B07KSPX859/ref=sr_1_12?dchild=1&keywords=4s+bms&qid=1608227266&sr=8-12)
 - Samsung 35E 18650 battery cells can be found [here](https://www.18650batterystore.com/products/samsung-35e)
 
-## Disclaimer & License
-- Licenses are located in `/License`. License1 covers the hardware aspects 
+## Disclaimer & Licenses
+- Licenses are located in `/License`. By using the contents in this reposity, you automatically agree to the terms and conditions in the licenses.
+- License1 covers the software aspects of this repository including the schematic, PCB source, PCB gerber, etc.
+- License2 covers the hardware aspects of the project including the contentes in `/Photos`, enclosure design, and overall design of the speaker.
+- The contents of this project are NOT risk-free of failure and therefore must be proofchecked by the user before use. The user assumes responsibility for any damages caused by electrical/mechanical failures.
+- Soldering lithium-ion batteries can be dangerous! Proper use and knowledge of the risks associated with the use of lithium-ion batteries must be considered by the user before attempting to create a battery pack.
+- Some components used in the PCBs are microscopic and require special microsoldering skills to assemble. This process is not for the "faint of heart" nor should be attempted if you don't have the right equipment. I can't hold your hand through every step and procedure in this project.
