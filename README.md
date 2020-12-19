@@ -36,6 +36,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - C50 & C51 on the XR1075 extension module will most likely not be needed, as LC low pass filters are already applied in the main PCB.
 - If you use a larger enclosure/smaller drivers for the speaker, then XR1075 module may not be needed.
 - R16 is a 1/2w carbon film resistor and is not listed on the PCB. Please connect this externally from the PCB.
+- 100uF capacitors can be used for C3 & C16
 
 ## Enclosure 
 
