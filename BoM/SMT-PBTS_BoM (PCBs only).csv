@@ -1,0 +1,19 @@
+Componant,Description,Quantity,Manufacturer ,Manufacturer Part Number ,Additional Comment
+R1-R26,0603 SMT ±1%,26,Any,-,R16 is 1/2w carbon film (refer to README)
+"C2, C3, C46, C16",100uF 25v ±20% (6.3x7.7),4,Any,-,-
+C24 ,47uF 50v ±20% (6.3x7.7),1,Any,-,-
+C29 & C30,10uF 16v ±20% (4x5.4),2,Any,-,-
+C22 & C23,2200uF 6.3v ±20% (10x10),2,United Chemi-Con,EMZR6R3ARA222MJA0G,-
+C38,1000uF 25v ±20% (12.5x13.5),1,Panasonic,EEE-HD1E102AQ,-
+C25,10uF 25v ±20% (4x5.4),1,Any,-,-
+L1-L4,10uH 2.3A ±20% (5.4x5.2),4,Coiltronics / Eaton,HCM1A0503V2-100-R,Can be replaced with 2A inductors
+Q1 & Q2,NPN 0.1A 120v SOT-346-3,2,Toshiba,"2SC3324-BL(TE85L,F",Can use generic NPN transistor instead
+TPA3128D2,30w+30w Class D amplifier,1,Texas Instruments,TPA3128D2DAPR,Used to drive two 25w speakers
+TDA7375V,Class AB 3-out car audio amplifier,1,STMicroelectronics ,E-TDA7375V,Drives center & surround speakers
+U1,Battery Managment 4s & 3s,1,ABLIC,S-8254AAWFT-TB-G,Replaces IC on BMS
+U3,5v linear voltage regulator 100mA,1,Texas Instruments,LM78L05AIM/NOPB,For KRC-86B v4.0
+U5,9v linear voltage regulator 100mA,1,ON Semiconductor,MC78L09ACDR2G,For surround sound decoder
+ISOLATOR,5v 1W DC-DC Isolator converter,1,XP Power,IES0105S05,Prevents ground loop/EMI from KRC-86B v4.0
+KRC-86B v4.0,Bluetooth v4.1 module,1,Any,KRC-86B v4.0,https://amzn.to/2Kkvy4U (Use 1x15 2mm pitch pin headers to mount)
+SPI,1x5 2.54mm pitch ,1,Any,-,For easier SPI programming; connect to KRC-86B v4.0
+XR1075,BBE Bass booster pre-amplifier,1,Exar,-,Not availible as a stand-alone part (must buy it modulated)
