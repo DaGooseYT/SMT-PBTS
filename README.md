@@ -40,7 +40,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - BTLED is a blue 5mm LED and PWRLED is a 5mm green LED
 
 ## BoM
-- BoM is availible in .csv file
+- BoM is availible in .csv file in `/BoM`
 - Only parts and componants on the PCBs are in the BoM. Please refer to the other sections of this README to find other additional parts for the project.
 
 ## Enclosure 
