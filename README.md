@@ -23,6 +23,7 @@ The schematic for this project is located in `/schematic`. It is availible in .s
 
 **Other notes:**
 - R23-R26 are resistors in the LC low pass filters and the resistance values must be changed in order for the low pass filter to be effective. Use the LC filter formula to determine a cutoff frequency.
+- R15 is a resistor in a LC high pass filter for the center channel and the resistance values must be changed in order for the high pass filter to be effective. Use the LC filter formula to determine a cutoff frequency.
 - R17 & R18 must be changed according to the output voltage gain of the amplifier. 
 - R21 & R22 control the crosstalk between surround channels. Higher resistance increases the cross talk, but will also increase the phase seperation (closer to 180° out of phase).
 - R5 & R6 set the gain for TPA3128D2. Default gain is 36dB in the PCB. Refer to [TPA3128D2 datasheet](https://www.ti.com/lit/ds/symlink/tpa3128d2.pdf?ts=1607302833960) for help.
@@ -36,6 +37,11 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - C50 & C51 on the XR1075 extension module will most likely not be needed, as LC low pass filters are already applied in the main PCB.
 - If you use a larger enclosure/smaller drivers for the speaker, then XR1075 module may not be needed.
 - R16 is a 1/2w carbon film resistor (1K ±5%) and is not listed on the PCB. Please connect this externally from the PCB.
+- BTLED is a blue 5mm LED and PWRLED is a 5mm green LED
+
+## BoM
+- BoM is availible in .csv file
+- Only parts and componants on the PCBs are in the BoM. Please refer to the other sections of this README to find other additional parts for the project.
 
 ## Enclosure 
 
@@ -75,5 +81,5 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - The contents of this project are NOT risk-free of failure and therefore must be proofchecked by the user before use. The user assumes responsibility for any damages caused by electrical/mechanical failures.
 - Soldering lithium-ion batteries can be dangerous! Proper use and knowledge of the risks associated with the use of lithium-ion batteries must be considered by the user before attempting to create a battery pack.
 - Some components used in the PCBs are microscopic and require special microsoldering skills to assemble. This process is not for the "faint of heart" nor should be attempted if you don't have the right equipment. 
-- This project is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be published online based on my own research only. 
-- ***I can't hold your hand through every step and procedure in this project.***
+- This project is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be published online based on *my own research only.*
+- ***I can't hold your hand through every step and procedure in this project.*** You must have prior knowlage in electronics, physics, and other necessary skills in order to contruct this speaker. Please report problems in the issues page.
