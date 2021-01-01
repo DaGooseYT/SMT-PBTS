@@ -41,7 +41,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 
 ## BoM
 - BoM is availible in .csv file in `/BoM`
-- Only parts and componants on the PCBs are in the BoM. Please refer to the other sections of this README to find other additional parts for the project.
+- Only parts and components on the PCBs are in the BoM. Please refer to the other sections of this README to find other additional parts for the project.
 
 ## Enclosure 
 
@@ -73,13 +73,14 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - Samsung 35E 18650 battery cells can be found [here](https://www.18650batterystore.com/products/samsung-35e)
 - For fire prevention, use 20AWG wires or better for the power connections and TPA3128D2 output connections.
 - KRC-86B v4.0 Bluetooth module can be found [here](https://www.amazon.com/HiLetgo-KRC-86B-Bluetooth-Receiver-Amplifier/dp/B071Z7S3JL/ref=sr_1_3?crid=2S69IR6LEVEXN&dchild=1&keywords=krc-86b&qid=1608305471&sprefix=krc-86%2Caps%2C154&sr=8-3)
+- 16.8v 1a lithium ion battery charger can be found [here](https://www.amazon.com/LIVISN-Adapter-Indicator-Suitable-4-String/dp/B07ZXZQRRN/ref=sxts_sxwds-bia-wc-rsf-lq2a1_0?crid=3OA9L3HQX42QX&cv_ct_cx=16.8v+lithium+ion+battery&dchild=1&keywords=16.8v+lithium+ion+battery&pd_rd_i=B07ZXZQRRN&pd_rd_r=82eba763-02f2-4034-8597-0b4991df19bd&pd_rd_w=LoF2F&pd_rd_wg=fyZpX&pf_rd_p=52f9c563-bb87-44f4-9d9d-e1c03402d90f&pf_rd_r=X1G7QRK0QTY2KX6DZREA&psc=1&qid=1609519124&sprefix=16.8v+%2Caps%2C160&sr=1-1-d3e58e83-6458-471c-a87e-175495b96a10)
 
 ## Disclaimer & Licenses
 - Licenses are located in `/License`. By using the contents in this repository, you automatically agree to the terms and conditions in the licenses as well as the disclaimers listed below.
 - License1 covers the software aspects of this repository including the schematic, PCB source, PCB gerber, etc.
 - License2 covers the hardware aspects of the project including the contentes in `/Photos`, enclosure design, and overall design of the speaker.
-- The contents of this project are NOT risk-free of failure and therefore must be proofchecked by the user before use. The user assumes responsibility for any damages caused by electrical/mechanical failures.
+- The contents of this project are NOT risk-free of failure and therefore must be proof checked by the user before use. The user assumes responsibility for any damages caused by electrical/mechanical failures.
 - Soldering lithium-ion batteries can be dangerous! Proper use and knowledge of the risks associated with the use of lithium-ion batteries must be considered by the user before attempting to create a battery pack.
-- Some components used in the PCBs are microscopic and require special microsoldering skills to assemble. This process is not for the "faint of heart" nor should be attempted if you don't have the right equipment. 
+- Some components used in the PCBs are microscopic and require special micro soldering skills to assemble. This process is not for the "faint of heart" nor should be attempted if you don't have the right equipment. 
 - This project is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be published online based on *my own research only.*
-- ***I can't hold your hand through every step and procedure in this project.*** You must have prior knowlage in electronics, physics, and other necessary skills in order to contruct this speaker. Please report problems in the issues page.
+- ***I can't hold your hand through every step and procedure in this project.*** You must have prior knowledge in electronics, physics, and other necessary skills in order to construct this speaker. Please report problems in the issues page.
