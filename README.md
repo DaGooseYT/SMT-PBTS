@@ -40,16 +40,16 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - BTLED is a blue 5mm LED and PWRLED is a 5mm green LED
 
 ## BoM
-- BoM is availible in .csv file in `/BoM`
+- BoM is available in .csv file in `/BoM`
 - Only parts and components on the PCBs are in the BoM. Please refer to the other sections of this README to find other additional parts for the project.
 
 ## Enclosure 
 
-- Outer enclosure demensions are as follows (when looking at the front & in inches. Sorry metric users you will have to convert the measurements on your own!): Length: 10.5; Width: 4.25; Depth: 3.5
+- Outer enclosure demensions are as follows: Length: 10.5; Width: 4.25; Depth: 3.5
 - Speaker hole diameters (also in inches): Left and right surround speakers: 1.9; two bass drivers: 3.5; center speaker: 1.9
 - Connector, Port, and LED hole diameters (again.. in inches): Power & AUX connectors: 0.5; LEDs: 3/16; Port: 5/8
-- It is reccomended to use polyfill in the enclosure for better frequency response around the port tuning frequency. 
-- The port of the enslosure is simply a PVC pipe with a inner diameter of 0.5 inches and is 9.75 inches in length (port tuning is between 39Hz - 40Hz). Due to Hoffman's Iron Law, the speaker will suffer in efficiency from the small enclosure & narrow port but will have a deep frequency response. A port was used due to no room for a passive radiator.
+- It is recommended to use polyfill in the enclosure for better frequency response around the port tuning frequency. 
+- The port of the enslosure is a PVC pipe with a inner diameter of 0.5 inches and is 9.75 inches in length (port tuning is between 37Hz - 40Hz).
 - 0.25 inch thick MDF wood is reccomended for the speaker enclosure build.
 
 ## Drivers
@@ -61,12 +61,7 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 ## Inputs 
 - AUX input via 3.5mm audio jack. Buy it [here](https://www.parts-express.com/35mm-stereo-gold-plated-snap-in-jack--090-281)
 - Power input via 5.5mm power jack. Buy it [here](https://www.parts-express.com/21-x-55mm-dc-coaxial-power-snap-in-jack--090-5030)
-- This project features Bluetooth v4.1 using the KRC-86B v4.0 Bluetooth module. The module can be reprogrammed to change the device's name as well as other features using a special microcontroller and some software. Follow the directions below to learn how to reprogram a CSR Bluetooth device: 
-1. First you will need the special CSR microcontroller USB-SPI converter. You can buy the original one [here](https://www.aliexpress.com/item/32775070191.html?src=google&albch=shopping&acnt=494-037-6276&isdl=y&slnk=&plac=&mtctp=&albbt=Google_7_shopping&aff_platform=google&aff_short_key=UneMJZVf&&albagn=888888&albcp=9824643245&albag=103112554314&trgt=901524112532&crea=en32775070191&netw=u&device=c&albpg=901524112532&albpd=en32775070191&gclid=CjwKCAiA_eb-BRB2EiwAGBnXXndOKJJVaxX_gCD3rRJvCNkSjhx2zsD4KVPEarOYSEoiylvzrDLkuxoCNq0QAvD_BwE&gclsrc=aw.ds). If you don't want to pay the expensive price and/or don't want to wait for the shipping from China, then use [this new microcontroller](https://www.digikey.com/en/products/detail/qualcomm-technologies-international,-ltd./DK-USB-SPI-10225-1A/5269739?utm_adgroup=Programmers%2C%20Emulators%2C%20and%20Debuggers&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Development%20Boards%2C%20Kits%2C%20Programmers_NEW&utm_term=&utm_content=Programmers%2C%20Emulators%2C%20and%20Debuggers&gclid=CjwKCAiA_eb-BRB2EiwAGBnXXkE3N6KQK4NOpo7lJF4k9YGp8LHvVVaPRt-t7ffovO93XN6W43aERhoCHx8QAvD_BwE) shipped and sold in the US as a cheaper alternative. A mini USB to USB A cable that supports data transfer will also be required.
-2. Download and install [CSR Bluesuit v2.6.6](https://drive.google.com/file/d/1OHdcJ7Q7dSbCMiuglO7hV6pjNrMVJkaL/view?usp=sharing) (Windows only). After installation, go to `C:\Program Files (x86)\CSR\BlueSuite 2.6.6` in file explorer. Connect your CSR USB-SPI converter to your computer. Connect the jumper wires from the microcontroller to the SPI female headers on the main PCB. The connections are labeled on both the PCB and the CSR USB-SPI modules. If you are using the new CSR SPI-USB module, then you will need to use an external power source to power the KRC-86B due to 3v being too low for its operation.
-3. Open PStool.exe. Ensure `SPI BCCMD` bubble is selected. Your USB-SPI converter should show up in the dropdown next to `SPI BCCMD` (note: third party USB-SPI converters will not show up here; only CSR devices). Select OK.
-4. In the *Filter* textbox, type `name`. Select the change user friendly name in the list (should be the only one in the list) and there you can change the device name.
-5. After you have set the name, select the `set` button, then you can close PStool. All done!
+- This project features Bluetooth v4.1 using the KRC-86B v4.0 Bluetooth module. The module can be reprogrammed to change the device's name as well as other features using [this](https://www.digikey.com/en/products/detail/qualcomm-technologies-international,-ltd./DK-USB-SPI-10225-1A/5269739?utm_adgroup=Programmers%2C%20Emulators%2C%20and%20Debuggers&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_Development%20Boards%2C%20Kits%2C%20Programmers_NEW&utm_term=&utm_content=Programmers%2C%20Emulators%2C%20and%20Debuggers&gclid=CjwKCAiA_eb-BRB2EiwAGBnXXkE3N6KQK4NOpo7lJF4k9YGp8LHvVVaPRt-t7ffovO93XN6W43aERhoCHx8QAvD_BwE) microcontroller.
 
 ## Other
 - The pre-modulated 4s BMS PCB can be found [here](https://www.amazon.com/Anmbest-Charger-Protection-Lithium-Battery/dp/B07KSPX859/ref=sr_1_12?dchild=1&keywords=4s+bms&qid=1608227266&sr=8-12)
@@ -75,12 +70,5 @@ The main and extension PCB sources are located in `/PCB`. There are two sources 
 - KRC-86B v4.0 Bluetooth module can be found [here](https://www.amazon.com/HiLetgo-KRC-86B-Bluetooth-Receiver-Amplifier/dp/B071Z7S3JL/ref=sr_1_3?crid=2S69IR6LEVEXN&dchild=1&keywords=krc-86b&qid=1608305471&sprefix=krc-86%2Caps%2C154&sr=8-3)
 - 16.8v 1a lithium ion battery charger can be found [here](https://www.amazon.com/LIVISN-Adapter-Indicator-Suitable-4-String/dp/B07ZXZQRRN/ref=sxts_sxwds-bia-wc-rsf-lq2a1_0?crid=3OA9L3HQX42QX&cv_ct_cx=16.8v+lithium+ion+battery&dchild=1&keywords=16.8v+lithium+ion+battery&pd_rd_i=B07ZXZQRRN&pd_rd_r=82eba763-02f2-4034-8597-0b4991df19bd&pd_rd_w=LoF2F&pd_rd_wg=fyZpX&pf_rd_p=52f9c563-bb87-44f4-9d9d-e1c03402d90f&pf_rd_r=X1G7QRK0QTY2KX6DZREA&psc=1&qid=1609519124&sprefix=16.8v+%2Caps%2C160&sr=1-1-d3e58e83-6458-471c-a87e-175495b96a10)
 
-## Disclaimer & Licenses
-- Licenses are located in `/License`. By using the contents in this repository, you automatically agree to the terms and conditions in the licenses as well as the disclaimers listed below.
-- License1 covers the software aspects of this repository including the schematic, PCB source, PCB gerber, etc.
-- License2 covers the hardware aspects of the project including the contentes in `/Photos`, enclosure design, and overall design of the speaker.
-- The contents of this project are NOT risk-free of failure and therefore must be proof checked by the user before use. The user assumes responsibility for any damages caused by electrical/mechanical failures.
-- Soldering lithium-ion batteries can be dangerous! Proper use and knowledge of the risks associated with the use of lithium-ion batteries must be considered by the user before attempting to create a battery pack.
-- Some components used in the PCBs are microscopic and require special micro soldering skills to assemble. This process is not for the "faint of heart" nor should be attempted if you don't have the right equipment. 
-- This project is the first ever DIY 3.2 Channel Portable Bluetooth Speaker to be published online based on *my own research only.*
-- ***I can't hold your hand through every step and procedure in this project.*** You must have prior knowledge in electronics, physics, and other necessary skills in order to construct this speaker. Please report problems in the issues page.
+## Licensing
+This repo is licensed under the GPL v3.0. Any images are licensed under CC BY-SA 3.0.
