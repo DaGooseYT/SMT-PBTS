@@ -12,7 +12,7 @@ SMT-PBTS is an open source, Hi-Fi Bluetooth speaker PCB designed for the smalles
 - Connect up to 2 devices simultaneously for shared musical playback.
 - Up to 800ft theoretical Bluetooth connectivity range using external antenna.
 - Studio quality, Hi-Res audio playback with up to 24-bits and 192kHz sample rate support (only using AptX HD codec).
-- Incredible, best in class frequency response; 35Hz-22KHz @-3dB (only with associated speakers and enclosure).
+- Incredible, best in class frequency response; 35Hz-22KHz @-3dB (only with suggested drivers and enclosure).
 - High efficiency eliminates the need for heatsinks.
 - Hybrid amplifier design consisting of Class D amplifiers for the bass drivers and linear Class AB amplifiers for the left, right, and center tweeters.
 - Ultra low total harmonic distortion, even at maximum power: ~0.05% THD.
