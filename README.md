@@ -53,7 +53,7 @@ PCB sources are located in `/src`. The sources are EasyEDA PCB design filetypes.
 - Power input via 5.5mm power jack. Buy it [here](https://www.parts-express.com/21-x-55mm-dc-coaxial-power-snap-in-jack--090-5030)
 - This PCB features Bluetooth v5.0 using the BTM875-B Bluetooth module. The module can be reprogrammed to change the device's name as well as other properties using [this](https://www.digikey.com/short/0d7541zq) debugger.
 
-## Other Componants
+## Other PCB Dependant Componants
 - The pre-modulated 4s BMS PCB can be found [here](https://a.co/d/1r3xPFF)
 - Samsung 50E 21700 battery cells can be found [here](https://www.18650batterystore.com/products/samsung-50e)
 - To prevent fire, use 20AWG wires or better for the power connections and TPA3128D2 output connections.
