@@ -34,7 +34,7 @@ PCB sources are located in `/src`. The sources are EasyEDA PCB design filetypes.
 - BoM is available as a .csv file in `/main`
 - Only parts and components on the PCB are in the BoM.
 
-## Enclosure Design
+## Suggested Enclosure Design
 
 - Outer enclosure demensions are as follows (in): Length: 10.5; Width: 4.25; Depth: 3.5
 - Speaker hole diameters (in): Left and right surround speakers: 1.9; two bass drivers: 3.5; center speaker: 1.9
@@ -43,17 +43,17 @@ PCB sources are located in `/src`. The sources are EasyEDA PCB design filetypes.
 - The port of the enslosure is a PVC pipe with a inner diameter of 0.5 inches and is 9.75 inches in length (port tuning is between 35Hz - 40Hz).
 - 0.25in thick MDF wood is reccomended for the speaker enclosure build.
 
-## Drivers
+## Suggested Drivers
 
 - The two bass drivers are 3.5in in diameter and are manufactured by BH Acoustics (see [datasheet](https://cdn.komachine.com/media/product-catalog/bh-acoustic_84067_fngrun.pdf)). They were salvaged from two Samsung WAM1500 smart speakers. Due two the limited availability of these drivers, it is recomended to use [these other drivers](https://www.parts-express.com/dayton-audio-nd90-4-3-1-2-aluminum-cone-full-range-neo-driver-4-ohm--290-208?gclid=EAIaIQobChMI4NT3tpzQ7QIVxqeGCh1ngwkfEAQYASABEgL25PD_BwE) as an alternative.
 - The center driver is a tweeter. It is rated at 10w 4ohm and was also pulled from a Samsung WAM1500. There is no other public documentation of this driver. [This](https://www.amazon.com/dp/B00LSEVA8I/ref=sspa_dk_detail_4?psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMjNDVFhLNklCVUdHJmVuY3J5cHRlZElkPUEwMTM0NTc4MTI4WFROUlVBVEI5OCZlbmNyeXB0ZWRBZElkPUEwNDU2MDk1MzIyMkdWSDRQRE5BNSZ3aWRnZXROYW1lPXNwX2RldGFpbDImYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl) driver can be used instead. 
 - The two surround speakers can be found [here](https://a.co/d/8RPXRJ0).
 
-## Inputs
+## I/) Connectors
 - Power input via 5.5mm power jack. Buy it [here](https://www.parts-express.com/21-x-55mm-dc-coaxial-power-snap-in-jack--090-5030)
 - This PCB features Bluetooth v5.0 using the BTM875-B Bluetooth module. The module can be reprogrammed to change the device's name as well as other properties using [this](https://www.digikey.com/short/0d7541zq) debugger.
 
-## Other
+## Other Componants
 - The pre-modulated 4s BMS PCB can be found [here](https://a.co/d/1r3xPFF)
 - Samsung 50E 21700 battery cells can be found [here](https://www.18650batterystore.com/products/samsung-50e)
 - To prevent fire, use 20AWG wires or better for the power connections and TPA3128D2 output connections.
