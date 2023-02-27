@@ -49,7 +49,7 @@ PCB sources are located in `/src`. The sources are EasyEDA PCB design filetypes.
 - The center driver is a tweeter. It is rated at 10w 4ohm and was also pulled from a Samsung WAM1500. There is no other public documentation of this driver. [This](https://www.amazon.com/dp/B00LSEVA8I/ref=sspa_dk_detail_4?psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMjNDVFhLNklCVUdHJmVuY3J5cHRlZElkPUEwMTM0NTc4MTI4WFROUlVBVEI5OCZlbmNyeXB0ZWRBZElkPUEwNDU2MDk1MzIyMkdWSDRQRE5BNSZ3aWRnZXROYW1lPXNwX2RldGFpbDImYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl) driver can be used instead. 
 - The two surround speakers can be found [here](https://a.co/d/8RPXRJ0).
 
-## I/) Connectors
+## I/O Connectors
 - Power input via 5.5mm power jack. Buy it [here](https://www.parts-express.com/21-x-55mm-dc-coaxial-power-snap-in-jack--090-5030)
 - This PCB features Bluetooth v5.0 using the BTM875-B Bluetooth module. The module can be reprogrammed to change the device's name as well as other properties using [this](https://www.digikey.com/short/0d7541zq) debugger.
 
