@@ -45,9 +45,9 @@ PCB sources are located in `/src`. The sources are EasyEDA PCB design filetypes.
 
 ## Suggested Drivers
 
-- The two bass drivers are 3.5in in diameter and are manufactured by BH Acoustics (see [datasheet](https://cdn.komachine.com/media/product-catalog/bh-acoustic_84067_fngrun.pdf)). They were salvaged from two Samsung WAM1500 smart speakers. Due two the limited availability of these drivers, it is recomended to use [these other drivers](https://www.parts-express.com/dayton-audio-nd90-4-3-1-2-aluminum-cone-full-range-neo-driver-4-ohm--290-208?gclid=EAIaIQobChMI4NT3tpzQ7QIVxqeGCh1ngwkfEAQYASABEgL25PD_BwE) as an alternative.
+- The two bass drivers are 3.5in in diameter and are manufactured by BH Acoustics (see [datasheet](https://cdn.komachine.com/media/product-catalog/bh-acoustic_84067_fngrun.pdf)). They were salvaged from two Samsung WAM1500 smart speakers. Due two the limited availability of these drivers, it is recomended to use [these drivers](https://www.parts-express.com/dayton-audio-nd90-4-3-1-2-aluminum-cone-full-range-neo-driver-4-ohm--290-208?gclid=EAIaIQobChMI4NT3tpzQ7QIVxqeGCh1ngwkfEAQYASABEgL25PD_BwE) as an alternative.
 - The center driver is a tweeter. It is rated at 10w 4ohm and was also pulled from a Samsung WAM1500. There is no other public documentation of this driver. [This](https://www.amazon.com/dp/B00LSEVA8I/ref=sspa_dk_detail_4?psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMjNDVFhLNklCVUdHJmVuY3J5cHRlZElkPUEwMTM0NTc4MTI4WFROUlVBVEI5OCZlbmNyeXB0ZWRBZElkPUEwNDU2MDk1MzIyMkdWSDRQRE5BNSZ3aWRnZXROYW1lPXNwX2RldGFpbDImYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl) driver can be used instead. 
-- The two surround speakers can be found [here](https://a.co/d/8RPXRJ0).
+- The two surround tweeters can be found [here](https://a.co/d/8RPXRJ0).
 
 ## I/O Connectors
 - Power input via 5.5mm power jack. Buy it [here](https://www.parts-express.com/21-x-55mm-dc-coaxial-power-snap-in-jack--090-5030)
