@@ -3,11 +3,11 @@
 
 [top]: https://github.com/DaGooseYT/SMT-PBTS/blob/main/pic/top.png "Top"
 
-SMT-PBTS is an open source, Hi-Fi Bluetooth speaker PCB designed for the smallest, best sounding portable Bluetooth speaker applications. Just smaller than a deck of cards, it features multi-channel configurations for an immersive soundstage, a programmable audio DSP, Bluetooth v5.0 technology with external antenna support, 24-bit 192kHz Hi-Res audio support, and more.
+SMT-PBTS is an open source, Hi-Fi Bluetooth speaker PCB designed for the smallest, best sounding portable Bluetooth speaker applications. About the size of a credit card, it features multi-channel configurations for an immersive soundstage, a programmable audio DSP, Bluetooth v5.0 technology with external antenna support, 24-bit 192kHz Hi-Res audio support, and more.
 
 ## Key Features
 
-- Ultra small and compact design; it’s smaller than a deck of cards.
+- Ultra small and compact design; it’s slightly bigger than a credit card.
 - Bluetooth v5.0 specification via Qualcomm’s CSR8675 SoC.
 - Connect up to 2 devices simultaneously for shared musical playback.
 - Up to 800ft theoretical Bluetooth connectivity range using external antenna.
