@@ -1,7 +1,7 @@
 # Surface Mount Technology - Portable Bluetooth Speaker (SMT-PBTS)
 ![alt text][img]
 
-[img]: https://github.com/DaGooseYT/SMT-PBTS/blob/main/pic/smtpbts.png "SMT-PBTS"
+[img]: https://github.com/DaGooseYT/SMT-PBTS/blob/main/pic/smtpbts_fr.png "SMT-PBTS"
 
 SMT-PBTS is an open source, Hi-Fi Bluetooth speaker PCB designed for the smallest, best sounding portable Bluetooth speaker applications. About the size of a credit card, it features multi-channel configurations for an immersive soundstage, a programmable audio DSP, Bluetooth v5.0 technology with external antenna support, 24-bit 192kHz Hi-Res audio support, and more.
 
