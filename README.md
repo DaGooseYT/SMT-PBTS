@@ -1,25 +1,25 @@
 # Surface Mount Technology - Portable Bluetooth Speaker (SMT-PBTS)
-![alt text][img]
 
-[img]: https://github.com/DaGooseYT/SMT-PBTS/blob/main/pic/smtpbts_fr.png "SMT-PBTS"
+<p align="center">
+  <img align="top" src="https://github.com/DaGooseYT/SMT-PBTS/blob/main/pic/smtpbts_fr.png" width="700"/>
+</p>
 
-SMT-PBTS is an open source, Hi-Fi Bluetooth speaker PCB designed for the smallest, best sounding portable Bluetooth speaker applications. About the size of a credit card, it features multi-channel configurations for an immersive soundstage, a programmable audio DSP, Bluetooth v5.0 technology with external antenna support, 24-bit 192kHz Hi-Res audio support, and more.
+SMT-PBTS is an open source, Hi-Fi Bluetooth speaker PCB designed for the smallest, best sounding portable Bluetooth speaker applications. Just smaller than a credit card, it features multi-channel configurations for an immersive soundstage, a programmable audio DSP, Bluetooth v5.0 technology with external antenna support, 24-bit 192kHz audio support and more.
 
 ## Key Features
 
-- Ultra small and compact design; it’s slightly bigger than a credit card.
+- Ultra small and compact design; just smaller than a credit card.
 - Bluetooth v5.0 specification via Qualcomm’s CSR8675 SoC.
 - Connect up to 2 devices simultaneously for shared musical playback.
-- Up to 800ft theoretical Bluetooth connectivity range using external antenna.
-- Studio quality, Hi-Res audio playback with up to 24-bits and 192kHz sample rate support (only using AptX HD codec).
-- Incredible, best in class frequency response; 35Hz-22KHz @-3dB (only with suggested drivers and enclosure).
+- Up to 300ft theoretical Bluetooth connectivity range using external antenna.
+- Supports nearly every Bluetooth A2DP streaming codec: AAC, SBC, MP3, aptX Classic, aptX-LL, aptX-HD, Fastream  
+- High fidelity audio playback with up to 24-bits and 192kHz sample rate support (only using aptX-HD codec).
+- Incredible frequency response; 40Hz-22KHz @-3dB (only with suggested drivers and enclosure).
 - High efficiency eliminates the need for heatsinks.
 - Hybrid amplifier design consisting of Class D amplifiers for the bass drivers and linear Class AB amplifiers for the left, right, and center tweeters.
-- Ultra low total harmonic distortion, even at maximum power: ~0.05% THD.
-- Ultra low signal to noise ratio: > 100dB
+- Ultra low total harmonic distortion, even at maximum power: ~0.03% THD.
+- Ultra low signal to noise ratio: > 108dB
 - 35W + 35W onboard Class D amplifiers with 3x1W Class AB amplifiers.
-- Built in startup pop/thump suppression for the on-board amplifiers.
-- Uses the highest audio quality preamplifier op-amps in existence: OPA4134, OPA2134 and OPA134.
 - Uses high-end Panasonic acrylic resin film caps for all audio decoupling filters.
 
 ## Schematic
@@ -40,7 +40,7 @@ PCB sources are located in `/src`. The sources are EasyEDA PCB design filetypes.
 - Speaker hole diameters (in): Left and right surround speakers: 1.9; two bass drivers: 3.5; center speaker: 1.9
 - Connector, Port, and LED hole diameters (in): Power & AUX connectors: 0.5; LEDs: 3/16; Port: 5/8
 - It is recommended to use polyfill in the enclosure for better frequency response and dampening. 
-- The port of the enslosure is a PVC pipe with a inner diameter of 0.5 inches and is 9.75 inches in length (port tuning is between 35Hz - 40Hz).
+- The port of the enslosure is a PVC pipe with a inner diameter of 0.6 inches and is 9.75 inches in length (port tuning is between 40Hz - 45Hz).
 - 0.25in thick MDF wood is reccomended for the speaker enclosure build.
 
 ## Suggested Drivers
@@ -51,7 +51,7 @@ PCB sources are located in `/src`. The sources are EasyEDA PCB design filetypes.
 
 ## I/O Connectors
 - Power input via 5.5mm power jack. Buy it [here](https://www.parts-express.com/21-x-55mm-dc-coaxial-power-snap-in-jack--090-5030)
-- This PCB features Bluetooth v5.0 using the BTM875-B Bluetooth module. The module can be reprogrammed to change the device's name as well as other properties using [this](https://www.digikey.com/short/0d7541zq) debugger.
+- This PCB features Bluetooth v5.0 using the BTM875-B Bluetooth module. The module can be reprogrammed to change the device's name as well as other properties. The programmer module is required because you need to flash the custom firmware onto the chip, which contains the code to drive the AIC3254 slave device. Buy [this](https://www.digikey.com/short/0d7541zq) programmer.
 
 ## Other PCB Dependant Componants
 - The pre-modulated 4s BMS PCB can be found [here](https://a.co/d/1r3xPFF)
