@@ -12,7 +12,7 @@ SMT-PBTS is an open source, Hi-Fi Bluetooth speaker PCB designed for the smalles
 - Bluetooth v5.0 specification via Qualcomm’s CSR8675 SoC.
 - Connect up to 2 devices simultaneously for shared musical playback.
 - Up to 300ft theoretical Bluetooth connectivity range using external antenna.
-- Supports nearly every Bluetooth A2DP streaming codec: AAC, SBC, MP3, aptX Classic, aptX-LL, aptX-HD, Fastream  
+- Supports nearly every Bluetooth A2DP streaming codec: AAC, SBC, MP3, aptX Classic, aptX-LL, aptX-HD, Faststream  
 - High fidelity audio playback with up to 24-bits and 192kHz sample rate support (only using aptX-HD codec).
 - Incredible frequency response; 40Hz-22KHz @-3dB (only with suggested drivers and enclosure).
 - High efficiency eliminates the need for heatsinks.
