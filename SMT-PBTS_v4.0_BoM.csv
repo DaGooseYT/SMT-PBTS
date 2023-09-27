@@ -1,0 +1,37 @@
+Componant,Description,Count,Manufacturer,Manufacturer Part Number ,Comment
+"C1, C3, C13, C15, C17, C18, C20, C21, C23, C24, C38, C47, C50, C59","100nF, 25V, 0603, X7R, ±20%",14,-,-,Ceramic
+"C2, C19","22uF, 16V, 5.5mm x 4.5mm, ±20%",2,-,-,Electrolytic
+"C4, C5, C6, C7, C8, C9","2.7nF, 16V, 0603, ±2%",6,Panasonic,ECH-U1C272GX5,Acrylic resin film
+"C10, C11, C25","2.2uF, 16V, 0603, X7R, ±20%",3,-,-,Ceramic
+"C12, C31, C34","1uF, 16V, 0603, X7R, ±20%",3,-,-,Ceramic
+"C14, C16, C22, C28, C29, C30, C61, C62, C63","10uF, 16V, 0804, X7R, ±20%",9,-,-,Ceramic
+C26,"82pF, 16V, 0603, X7R, ±20%",1,-,-,Ceramic
+C27,"39pF, 16V, 0603, X7R, ±20%",1,-,-,Ceramic
+"C32, C33, C35, C36, C40, C45, C52, C57","1uF, 16V, 1210, ±20%",8,Panasonic,ECP-U1C105MA5 ,Acrylic resin film
+"C37, C48, C49, C60","100uF, 25V, ±20%",4,-,-,Electrolytic
+"C39, C46, C51, C58","1nF, 25V, 0603, X7R, ±20%",4,-,-,Ceramic
+"C41, C42, C43, C44, C53, C54, C55, C56","220nF, 16V, 0603, X7R, ±20%",8,-,-,Ceramic
+E1,MHF4 connector,1,Linx Technologies,CONMHF4-SMD-G-T ,-
+L1,"4.7uH, 8.5A power inductor",2,Bourns,SRP8540A-4R7M ,Must have a current limit no less than 8A
+"L2, L3, L4, L5","6.8uH, 3.3A power inductor",4,Eaton,HCM1A0503V2-6R8-R,Must have a current limit no less than 3A
+"R1, R2, R3, R4, R5, R6","22KΩ, 0603, ±1%",6,-,-,Film
+R7,"1KΩ, 0603, ±1%",1,-,-,Film
+"R8, R17, R18, R20, R21, R26, R27","100KΩ, 0603, ±1%",7,-,-,Film
+"R9, R10, R11, R12","10Ω, 0603, ±1%",4,-,-,Film
+R13,"680KΩ, 0603, ±1%",1,-,-,Film
+R14,"24KΩ, 0603, ±1%",1,-,-,Film
+R15,"33KΩ, 0603, ±1%",1,-,-,Film
+"R16, R19","39KΩ, 0603, ±1%",2,-,-,Film
+"R22, R23","20KΩ, 0603, ±1%",2,-,-,Film
+"R24, R25","3.9KΩ, 0603, ±1%",2,-,-,Film
+"R28, R29, R30","0Ω, 0603, ±1%",3,-,-,Film
+T1,"Linear voltage regulator, 5V 1A",1,ROHM Semiconductor,BA7805FP-E2 ,-
+"U1, U2, U3",3.1W mono Class AB audio amplifier,3,Texas Instruments,TPA6211A1TDGNRQ1 ,Single ended inputs
+U4,Audio CODEC with embedded miniDSP,1,Texas Instruments,TLV320AIC3254IRHBR ,Requires TI PurePath for software configuration
+U5,Miniture CSR8675 Bluetooth module,1,天嘉润科技,SJR-BTM875-E,Requires custom firmware configuration
+U6,"Linear voltage regulator, 3.3V 200mA",1,Diodes Incorporated,ZSR330GTA,OBSOLETE - 9/27/2023
+U7,Switching boost converter regulator,1,Texas Instruments,TPS61288LRQQR ,Output: 17.5V 5A
+"U8, U9",Dual 30W audio power amplifier / 60W mono,2,Texas Instruments,TPA3128D2DAPR,Used in PBTL mode
+"SW, SUBL, SUBR",1x2 2.54mm socket,3,JST,XH2.54-2p,-
+"LEDS, PWR",1x4 2.54mm socket,2,JST,XH2.54-4p,-
+ISP,1x5 2.54mm socket,1,JST,XH2.54-5p,-
