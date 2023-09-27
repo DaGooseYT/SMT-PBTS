@@ -24,7 +24,7 @@ SMT-PBTS is an open source, Hi-Fi Bluetooth speaker PCB designed for the smalles
 
 ## Schematic
 
-The schematic source for this project is located in `/src`. It is released as an EasyEDA source file. The SVG of the schematic is located in `/pic`.
+The schematic source for this project is located in `/src`. It is released as an EasyEDA source file. The PNG of the schematic is located in `/pic`.
 
 ## PCB
 
