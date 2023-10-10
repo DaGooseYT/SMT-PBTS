@@ -54,8 +54,9 @@ PCB sources are located in `/src`. The sources are EasyEDA PCB design filetypes.
 - This PCB features Bluetooth v5.0 using the BTM875-B Bluetooth module. The module can be reprogrammed to change the device's name as well as other properties. The programmer module is required because you need to flash the custom firmware onto the chip, which contains the code to drive the AIC3254 slave device. Buy [this](https://www.digikey.com/short/0d7541zq) programmer.
 
 ## Other PCB Dependant Componants
-- The pre-modulated 4s BMS PCB can be found [here](https://a.co/d/1r3xPFF)
-- Samsung 50E 21700 battery cells can be found [here](https://www.18650batterystore.com/products/samsung-50e)
+- The pre-modulated 4s BMS PCB can be found [here](https://a.co/d/1r3xPFF). I highly suggest swapping out the main IC on this BMS with [this](https://mou.sr/46K4Cju) one for better discharge/overcharge protection and best compatibility with SMT-PBTS.
+- Samsung 50E 21700 battery cells can be found [here](https://www.18650batterystore.com/products/samsung-50e) (order 4 for 14.4V configuration)
+- Buy lithium-ion battery nickel strips [here](https://a.co/d/34JzgvJ)
 - To prevent fire, use 20AWG wires or better for the power connections and TPA3128D2 output connections.
 - 16.8V 2A lithium ion battery charger can be found [here](https://a.co/d/1eIaQfp)
 
